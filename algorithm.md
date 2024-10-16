@@ -8,18 +8,18 @@
 # 5) If user inputs equals "e"
 #       A) End program
 # 6) while user input equals "d"
-#       A) Prompt user to input a positive number up to the second decimal point on how much they want to deposit
-#       B) while user input is less than 0 or user input has more than 2 decimal points or is not a number
-#           a) Prompt user to input a positive number up to the second decimal point or 0 to return to the other actions
+#       A) Prompt user to input a positive number on how much they want to deposit
+#       B) while user input is less than 0 
+#           a) Prompt user to input a positive number 
 #       C) Add user input to balance 
 #       D) Prompt user to input D, W, V, or E
 #       E) while user does not enter D, W, V, or E
 #           a) prompt user to input a valid input between D, W, V, or E
 #       F) set user input to lowercase
 # 7) while user input equals "w" 
-#       A) Prompt user input a negative number up to the second decimal point on how much they want to withdraw
-#       B) while user input is greater than 0 or user input has more than 2 decimal points or is not a number
-#           a) Prompt user input a negative number up to the second decimal point or enter 0 to return to other actions
+#       A) Prompt user input a negative number they want to withdraw
+#       B) while user input is greater than 0 
+#           a) Prompt user input a negative number or enter 0 to return to other actions
 #       C) Add user input to balance 
 #       D) If the user balance is less than 0
 #           a) prompt user to input yes or no if they want to continue the action knowing they will have a negative balance and a 5% interest rate would be charged on the balance
