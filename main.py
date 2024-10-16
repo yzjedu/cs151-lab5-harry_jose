@@ -14,7 +14,7 @@ print('The program uses "D" for deposit, "W" for withdraw, "V" for view balance,
 import math 
 # Create variables needed
 balance = 1000.00 
-SENTINEL = 'e'
+
 # Prompt user to input D, W, V, or E and set it to the lower case form 
 action = input('Please enter one of the following D, W, V, or E:')
 action = action.lower()
